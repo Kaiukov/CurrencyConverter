@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    port: 3000,
+    port: 3001,
+    strictPort: true,
     allowedHosts: ['oleksandrs-macbook-air.neon-chuckwalla.ts.net'],
   },
 });
