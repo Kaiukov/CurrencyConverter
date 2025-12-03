@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center">
-      <div className="w-full max-w-md flex flex-col min-h-screen">
+      <div className="w-full max-w-md flex flex-col h-screen">
         <div className="sticky top-0 z-30 bg-slate-950/95 backdrop-blur border-b border-slate-900 pt-[env(safe-area-inset-top)]">
           <Header />
           <UpdateBar timestamp={timestamp} onRefresh={() => refetch()} />
