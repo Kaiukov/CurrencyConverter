@@ -43,6 +43,12 @@ export const CurrencyRow: React.FC<Props> = ({
     }
   }, [isBase, focusTick, focusInput]);
 
+  const activateFromField = (e: React.PointerEvent | React.TouchEvent | React.MouseEvent) => {
+    e.stopPropagation();
+    onSelect();
+    requestAnimationFrame(focusInput);
+  };
+
   return (
     <div
       className={`flex items-center justify-between px-4 py-4 border-b border-slate-800 text-left gap-3 ${
@@ -79,6 +85,8 @@ export const CurrencyRow: React.FC<Props> = ({
             if (!isBase) return;
             focusInput();
           }}
+          onMouseDown={activateFromField}
+          onTouchStart={activateFromField}
           readOnly={!isBase}
         />
         <button
