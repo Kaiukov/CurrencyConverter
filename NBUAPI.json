@@ -1,0 +1,370 @@
+[
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "036",
+        "CurrencyCodeL": "AUD",
+        "Units": 1,
+        "Amount": 27.7458
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "944",
+        "CurrencyCodeL": "AZN",
+        "Units": 1,
+        "Amount": 24.8995
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "012",
+        "CurrencyCodeL": "DZD",
+        "Units": 10,
+        "Amount": 3.2523
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "764",
+        "CurrencyCodeL": "THB",
+        "Units": 10,
+        "Amount": 13.2311
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "975",
+        "CurrencyCodeL": "BGN",
+        "Units": 1,
+        "Amount": 25.1391
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "410",
+        "CurrencyCodeL": "KRW",
+        "Units": 100,
+        "Amount": 2.8837
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "344",
+        "CurrencyCodeL": "HKD",
+        "Units": 1,
+        "Amount": 5.4371
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "208",
+        "CurrencyCodeL": "DKK",
+        "Units": 1,
+        "Amount": 6.5853
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "784",
+        "CurrencyCodeL": "AED",
+        "Units": 1,
+        "Amount": 11.5261
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "840",
+        "CurrencyCodeL": "USD",
+        "Units": 1,
+        "Amount": 42.3342
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "704",
+        "CurrencyCodeL": "VND",
+        "Units": 1000,
+        "Amount": 1.605
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "978",
+        "CurrencyCodeL": "EUR",
+        "Units": 1,
+        "Amount": 49.1839
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "818",
+        "CurrencyCodeL": "EGP",
+        "Units": 1,
+        "Amount": 0.8909
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "392",
+        "CurrencyCodeL": "JPY",
+        "Units": 10,
+        "Amount": 2.7136
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "985",
+        "CurrencyCodeL": "PLN",
+        "Units": 1,
+        "Amount": 11.6067
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "356",
+        "CurrencyCodeL": "INR",
+        "Units": 10,
+        "Amount": 4.7101
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "124",
+        "CurrencyCodeL": "CAD",
+        "Units": 1,
+        "Amount": 30.2301
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "981",
+        "CurrencyCodeL": "GEL",
+        "Units": 1,
+        "Amount": 15.6729
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "422",
+        "CurrencyCodeL": "LBP",
+        "Units": 100,
+        "Amount": 0.0473
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "458",
+        "CurrencyCodeL": "MYR",
+        "Units": 1,
+        "Amount": 10.2482
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "484",
+        "CurrencyCodeL": "MXN",
+        "Units": 1,
+        "Amount": 2.3121
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "498",
+        "CurrencyCodeL": "MDL",
+        "Units": 1,
+        "Amount": 2.491
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "376",
+        "CurrencyCodeL": "ILS",
+        "Units": 1,
+        "Amount": 12.9931
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "554",
+        "CurrencyCodeL": "NZD",
+        "Units": 1,
+        "Amount": 24.2279
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "578",
+        "CurrencyCodeL": "NOK",
+        "Units": 1,
+        "Amount": 4.1706
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "710",
+        "CurrencyCodeL": "ZAR",
+        "Units": 1,
+        "Amount": 2.475
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "946",
+        "CurrencyCodeL": "RON",
+        "Units": 1,
+        "Amount": 9.6642
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "360",
+        "CurrencyCodeL": "IDR",
+        "Units": 1000,
+        "Amount": 2.5467
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "682",
+        "CurrencyCodeL": "SAR",
+        "Units": 1,
+        "Amount": 11.278
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "941",
+        "CurrencyCodeL": "RSD",
+        "Units": 10,
+        "Amount": 4.1895
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "702",
+        "CurrencyCodeL": "SGD",
+        "Units": 1,
+        "Amount": 32.625
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "960",
+        "CurrencyCodeL": "XDR",
+        "Units": 1,
+        "Amount": 57.6126
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "050",
+        "CurrencyCodeL": "BDT",
+        "Units": 10,
+        "Amount": 3.4644
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "398",
+        "CurrencyCodeL": "KZT",
+        "Units": 100,
+        "Amount": 8.347
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "788",
+        "CurrencyCodeL": "TND",
+        "Units": 1,
+        "Amount": 14.4033
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "949",
+        "CurrencyCodeL": "TRY",
+        "Units": 1,
+        "Amount": 0.9981
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "348",
+        "CurrencyCodeL": "HUF",
+        "Units": 100,
+        "Amount": 12.9142
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "826",
+        "CurrencyCodeL": "GBP",
+        "Units": 1,
+        "Amount": 55.915
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "203",
+        "CurrencyCodeL": "CZK",
+        "Units": 1,
+        "Amount": 2.0359
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "752",
+        "CurrencyCodeL": "SEK",
+        "Units": 1,
+        "Amount": 4.4754
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "756",
+        "CurrencyCodeL": "CHF",
+        "Units": 1,
+        "Amount": 52.6283
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "156",
+        "CurrencyCodeL": "CNY",
+        "Units": 1,
+        "Amount": 5.9868
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "959",
+        "CurrencyCodeL": "XAU",
+        "Units": 1,
+        "Amount": 178175.33
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "961",
+        "CurrencyCodeL": "XAG",
+        "Units": 1,
+        "Amount": 2431.63
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "962",
+        "CurrencyCodeL": "XPT",
+        "Units": 1,
+        "Amount": 69060.2
+    },
+    {
+        "StartDate": "03.12.2025",
+        "TimeSign": "0000",
+        "CurrencyCode": "964",
+        "CurrencyCodeL": "XPD",
+        "Units": 1,
+        "Amount": 61301.19
+    }
+]
