@@ -27,19 +27,31 @@ export const CurrencyRow: React.FC<Props> = ({
   const formattedInput = displayAmount;
   const inputRef = React.useRef<HTMLInputElement>(null);
 
+  const focusInput = React.useCallback(() => {
+    const el = inputRef.current;
+    if (!el || el.readOnly) return;
+    el.focus({ preventScroll: true } as any);
+    // select all without extra scroll
+    requestAnimationFrame(() => {
+      el.setSelectionRange(0, el.value.length);
+    });
+  }, []);
+
   React.useEffect(() => {
     if (isBase && inputRef.current) {
-      inputRef.current.focus({ preventScroll: true });
-      inputRef.current.select();
+      focusInput();
     }
-  }, [isBase, focusTick]);
+  }, [isBase, focusTick, focusInput]);
 
   return (
     <div
       className={`flex items-center justify-between px-4 py-4 border-b border-slate-800 text-left gap-3 ${
         isBase ? 'bg-slate-800/70' : 'hover:bg-slate-900'
       }`}
-      onClick={onSelect}
+      onClick={(e) => {
+        onSelect();
+        requestAnimationFrame(focusInput);
+      }}
     >
       <div className="flex items-center gap-3 flex-shrink-0">
         <span className="text-xl" aria-hidden>
@@ -60,9 +72,13 @@ export const CurrencyRow: React.FC<Props> = ({
           ref={inputRef}
           value={isBase ? formattedInput : valueDisplay(value, meta, displayAmount)}
           onChange={(e) => isBase && onAmountChange(e.target.value)}
+          type="text"
           inputMode="decimal"
           autoFocus={false}
-          onFocus={(e) => e.target.select()}
+          onFocus={(e) => {
+            if (!isBase) return;
+            focusInput();
+          }}
           readOnly={!isBase}
         />
         <button
