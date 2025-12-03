@@ -11,6 +11,7 @@ type Props = {
   onSelect: () => void;
   onAmountChange: (v: string) => void;
   onHistory?: () => void;
+  focusTick: number;
 };
 
 export const CurrencyRow: React.FC<Props> = ({
@@ -21,8 +22,17 @@ export const CurrencyRow: React.FC<Props> = ({
   onSelect,
   onAmountChange,
   onHistory,
+  focusTick,
 }) => {
   const formattedInput = displayAmount;
+  const inputRef = React.useRef<HTMLInputElement>(null);
+
+  React.useEffect(() => {
+    if (isBase && inputRef.current) {
+      inputRef.current.focus({ preventScroll: true });
+      inputRef.current.select();
+    }
+  }, [isBase, focusTick]);
 
   return (
     <div
@@ -47,10 +57,11 @@ export const CurrencyRow: React.FC<Props> = ({
           className={`w-full text-right bg-transparent text-slate-100 font-mono text-lg outline-none border-none px-1 ${
             isBase ? '' : ''
           }`}
+          ref={inputRef}
           value={isBase ? formattedInput : valueDisplay(value, meta, displayAmount)}
           onChange={(e) => isBase && onAmountChange(e.target.value)}
           inputMode="decimal"
-          autoFocus={isBase}
+          autoFocus={false}
           onFocus={(e) => e.target.select()}
           readOnly={!isBase}
         />

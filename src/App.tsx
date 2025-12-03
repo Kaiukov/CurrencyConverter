@@ -19,6 +19,7 @@ export default function App() {
     staleTime: 5 * 60 * 1000,
   });
   const { baseCode, setBaseCode, amount, setAmount, order } = useAppState();
+  const [focusTick, setFocusTick] = useState(0);
   const [pending, setPending] = useState<{ op: string; acc: number } | null>(null);
 
   const baseRate = data?.[baseCode]?.rate ?? 1;
@@ -62,7 +63,9 @@ export default function App() {
                     setAmount(nextAmount);
                     setPending(null);
                   }
+                  setFocusTick((v) => v + 1); // always refresh focus so mobile keyboard appears
                 }}
+                focusTick={focusTick}
               />
             ))}
           </div>
