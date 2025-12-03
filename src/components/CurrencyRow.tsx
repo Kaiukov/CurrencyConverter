@@ -61,7 +61,7 @@ export const CurrencyRow: React.FC<Props> = ({
     >
       <div className="flex items-center gap-3 flex-shrink-0">
         <span className="text-xl" aria-hidden>
-          {meta.flag}
+          <span className={`fi fi-${meta.flagCode} rounded-sm`} />
         </span>
         <div>
           <div className="text-sm font-semibold text-slate-100 leading-tight">{meta.code}</div>

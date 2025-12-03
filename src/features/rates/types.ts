@@ -13,14 +13,14 @@ export type CurrencyMeta = {
   code: string;
   name: string;
   precision: number;
-  flag: string;
+  flagCode: string; // ISO country/region for flag-icons
 };
 
 export const SUPPORTED: CurrencyMeta[] = [
-  { code: 'UAH', name: 'Hryvnia', precision: 2, flag: '🇺🇦' },
-  { code: 'GBP', name: 'Pound', precision: 2, flag: '🇬🇧' },
-  { code: 'USD', name: 'Dollar', precision: 2, flag: '🇺🇸' },
-  { code: 'EUR', name: 'Euro', precision: 2, flag: '🇪🇺' },
-  { code: 'RON', name: 'Leu', precision: 2, flag: '🇷🇴' },
-  { code: 'SEK', name: 'Krona', precision: 2, flag: '🇸🇪' },
+  { code: 'UAH', name: 'Hryvnia', precision: 2, flagCode: 'ua' },
+  { code: 'GBP', name: 'Pound', precision: 2, flagCode: 'gb' },
+  { code: 'USD', name: 'Dollar', precision: 2, flagCode: 'us' },
+  { code: 'EUR', name: 'Euro', precision: 2, flagCode: 'eu' },
+  { code: 'RON', name: 'Leu', precision: 2, flagCode: 'ro' },
+  { code: 'SEK', name: 'Krona', precision: 2, flagCode: 'se' },
 ];
